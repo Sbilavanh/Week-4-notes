@@ -1,4 +1,4 @@
-//Question 1
+//Question 1: Convert the following function into an arrow function. Refer to the new function as returnSquareRoot.
 //how to convert this function below into an arrow function
 function myFunction(num) { return Math.sqrt(num); }
 // My solution
@@ -11,7 +11,7 @@ console.log(returnSquareRoot(a));
 let returnSquareRoot = (num) => Math.sqrt(num);
 console.log(returnSquareRoot(a));
 
-//Question 2
+//Question 2: Convert the following function into an arrow function. Refer to the new function as xor.
 //how to convert a function into an arrow function and refer to the new function as xor
 function myFunction(num1, num2) {
     return num1 ^ num2;
@@ -24,7 +24,7 @@ console.log(xor(a, b));
 let xor = (num1, num2) => num1 ^ num2; //I happen to get the same result as the instructor
 console.log(xor(a, b));
 
-//Question 3
+//Question 3: Convert the following function into an arrow function. Refer to the new function as returnSum.
 //how to convert the following function into a arrow function 
 function addTwoInputs(a, b) { return a + b; }
 //My solution
@@ -35,7 +35,7 @@ console.log(returnSum(a, b));
 let returnSum = (a, b) => a + b;
 console.log(returnSum(a, b));
 
-//Question 4
+//Question 4: Convert the following function into an arrow function. Refer to the new function as monthlyPayment.
 // how to convert the fololowing function to a arrow funtion 
 function myFunction(yearlyPayment) {
     let monthly = yearlyPayment / 12;
